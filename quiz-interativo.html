@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo</title>
+    <link rel="stylesheet" href="quiz-interativo.css">
+</head>
+<body>
+    <div class="quiz">
+        <h2>Quiz Interativo</h2>
+        <p>Qual é a capital da França?</p>
+        <ul>
+            <li><input type="radio" name="answer" value="Paris"> Paris</li>
+            <li><input type="radio" name="answer" value="Londres"> Londres</li>
+            <li><input type="radio" name="answer" value="Roma"> Roma</li>
+        </ul>
+        <button onclick="checkAnswer()">Verificar Resposta</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="quiz-interativo.js"></script>
+</body>
+</html>
